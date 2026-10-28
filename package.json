@@ -10,7 +10,9 @@
     "seed": "node server/seed.js",
     "test": "vitest run"
   },
-  "engines": { "node": ">=18" },
+  "engines": {
+    "node": ">=18"
+  },
   "dependencies": {
     "@supabase/supabase-js": "^2.45.0",
     "bcryptjs": "^2.4.3",
@@ -25,5 +27,8 @@
   "devDependencies": {
     "supertest": "^7.0.0",
     "vitest": "^2.1.0"
+  },
+  "allowScripts": {
+    "esbuild@0.21.5": true
   }
 }
